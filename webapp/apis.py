@@ -2,8 +2,6 @@ from flask_restful import Resource, Api
 from flask import request, session
 from flasgger import Swagger
 
-
-
 from . import app, db
 from .models import *
 from werkzeug.security import generate_password_hash, check_password_hash
